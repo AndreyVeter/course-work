@@ -1,0 +1,169 @@
+body{
+	background-color: #eaeaea;
+	position: relative;
+}
+a{
+	color: black;
+	text-decoration: none;
+	background-color: transparent;
+}
+.regist{
+	display: none;
+	position: fixed;
+	width: 300px;
+	top: 100px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #981e32;
+	z-index: 3;
+}
+.regist > form{
+	width: 100%;
+	margin-top: 50px;
+	border: none;
+	text-align: center;
+}
+.regist > form > figure > fieldset > span{
+	font-size: 24px;
+	padding-bottom: 30px;
+}
+.regist > form > figure > fieldset{
+	border: none;
+}
+.regist > form > label,input,button{
+	margin: 10px auto 20px;
+	padding: 5px 10px;
+	display: block;
+}
+header > div:nth-child(1){
+	width: 100%;
+	max-width: 385px;
+	height: 160px;
+	margin: 20px auto 100px;
+	background-image: url(../img/Logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-box{
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: white;
+}
+.nav-box > div:nth-child(1){
+	float: left;
+	height: 40px;
+	margin: 43px 40px 43px 90px;
+}
+.nav-box  nav{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin:3.4em auto 0;
+	padding:5px 15px;
+	text-transform: uppercase; 
+}
+.nav-box > nav > a{
+	padding:5px 15px;
+}
+.nav-box > nav > a:hover{
+	text-decoration: underline;
+}
+.nav-box > a{
+	float: right;
+	margin-right: 5em;
+	margin-top: 3.6em;
+}
+section{
+	margin-top: 90px;
+}
+.banner-one{
+	width: 100%;
+	background-image: url(../img/Photo-baner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-one > div{
+	width: 100%;
+	max-width: 350px;
+	margin-left: 90px;
+}
+.banner-one div > div{
+	display: block;
+	width: 100%;
+	max-width: 250px;
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+.banner-one div > span{
+	font-size: 24px;
+	color: #981e32;
+}
+.banner-one div > p{
+	margin-top: 30px;
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+.banner-one div > button{
+	margin-bottom: 50px;
+	padding: 12px 9px;
+	border:1px solid #c2c2c2;
+	font-size: 12px;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.menu > h2{
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	color: #981e32;
+	border-bottom: 1px solid #c2c2c2;
+}
+#two{
+	margin-top: 100px;
+}
+#salad{
+	margin-top: 100px;
+}
+.menu > div{
+	width: 100%;
+	margin-top: 20px;
+	background-color: white;
+	text-align: center;
+}
+.menu div > div{
+	position: relative;
+	display: inline-block;
+	width: 27%;
+	overflow: hidden;
+	margin: 30px 25px 10px 25px; 
+}
+.menu div > div:nth-child(1){
+	margin-left: 0px;
+}
+.menu div > div:nth-child(3){
+	margin-right: 0px;
+}
+.menu div > div > .modal{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	top: -100%;
+	left: 0px;
+	z-index: 2;
+	text-align: left;
+	background-color: #eaeaea;
+	transition: top 1s ease; 
+}
+.menu div > div:hover .modal{
+	top: 0;
+} 
+.modal > span{
+	display: block;
+}
+.modal > button{
+	border: 2px solid white;
+	text-transform: uppercase;
+	padding: 5px 5px;
+	background-color: transparent;
+}
